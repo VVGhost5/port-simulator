@@ -5,7 +5,7 @@ import Port from './js/classPort';
 const TWEEN = require('@tweenjs/tween.js')
 
 const app = new PIXI.Application({
-    width: 800, height: 600, backgroundColor: 0x1099bb, resolution: window.devicePixelRatio || 1,
+    width: 800, height: 800, backgroundColor: 0x1099bb, resolution: window.devicePixelRatio || 1,
 });
 document.body.appendChild(app.view);
 
